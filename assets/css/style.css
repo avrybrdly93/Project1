@@ -1,80 +1,96 @@
-@import url('https://fonts.googleapis.com/css?family=Arimo|Merriweather');
+@import url("https://fonts.googleapis.com/css?family=Arimo|Merriweather");
 
 body {
-    background-color: #BBBBBB;
+  background-color: #bbbbbb;
 }
 img {
-    z-index: -999;
+  z-index: -999;
 }
-h1{
-    color: #FFFFFF;
-    font-weight: bolder;
-    font-size: 60px;
-    text-shadow: #4E4B4B 0px 3px 6px;
+h1 {
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 60px;
+  text-shadow: #4e4b4b 0px 3px 6px;
 }
-h2{
-    color: #a239ca;
-    font-weight: bolder;
-    font-size: 60px;
+h2 {
+  color: #a239ca;
+  font-weight: bolder;
+  font-size: 60px;
 }
-label{
-    font-family: 'Arimo', sans-serif;
-    font-size: 26px;
-    font-weight: bold;
+label {
+  font-family: "Arimo", sans-serif;
+  font-size: 26px;
+  font-weight: bold;
 }
-a{
-    color: #09A8AE;
-    margin: auto;
+a {
+  color: #09a8ae;
+  margin: auto;
 }
 legend {
-    margin: 0 auto;
-    text-align: center;
+  margin: 0 auto;
+  text-align: center;
 }
 /* ----------- CLASSES -----------*/
 .bgDiv {
-    background-image: url("../images/tour.png");
-  
-    min-height: 600px;
-    min-width: 100%;
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../images/tour.png");
+
+  min-height: 600px;
+  min-width: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.btn{
-    border-radius: 30px;
+
+.s006 {
+  margin: 0 auto;
+  z-index: 1;
+  /* position: absolute; */
+  margin-top: 5%;
 }
+
 .jumbotron {
-    z-index: 1;
-    position: absolute;
-    margin-top: 10%;
-    opacity: .80;
-    width: 100%;
+  z-index: 1;
+  margin-top: 10%;
+  opacity: 0.8;
+  width: 100%;
 }
-.s006{
-    margin-left: 30%;
-    z-index: 1;
-    position: absolute;
-    margin-top: 5%;
+
+.bar {
+  z-index: 9999;
+  background-color: #363636;
+  min-width: 100%;
+  /* height: 150px; */
 }
+.svg-inline--fa {
+  height: 35px;
+  width: 35px;
+}
+
 .btn {
   border-radius: 30px;
+  margin-right: 10px;
 }
-.jumbotron {
-  z-index: 1;
-  margin-top: 10%;
-  opacity: 0.8;
-  width: 100%;
+#threeB {
+  height: 126px;
+  width: 126px;
+  border-radius: 70px;
+  margin-top: -63px;
 }
-.s006 {
-  margin-left: 30%;
-  z-index: 1;
-  margin-top: 5%;
+
+.btn-circle {
+  width: 90px;
+  height: 90px;
+  /* text-align: center; */
+  /* padding: 6px 0; */
+  /* font-size: 12px; */
+  /* line-height: 1.42; */
+  border-radius: 50px;
+  margin-top: -45px;
 }
-.optionButtons {
-  margin: 0 auto;
-  top: 375px;
-  margin-top: -25px;
+
+button {
+  margin-top: -40px;
 }
 .bgHeader {
   /* The image used */
@@ -86,116 +102,84 @@ legend {
   /* Center and scale the image nicely */
 
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   background-color: black;
-}
-
-.bar {
-  z-index: 9999;
 }
 
 .container {
   padding: 0;
 }
-.btn-circle {
-  width: 60px;
-  height: 60px;
-  text-align: center;
-  padding: 6px 0;
-  font-size: 12px;
-  line-height: 1.42;
-  border-radius: 15px;
-}
-.optionButtons {
-  margin-top: 20px;
-}
-.btn {
-    border-radius: 30px;
-}
-.jumbotron {
-  z-index: 1;
-  margin-top: 10%;
-  opacity: 0.8;
-  width: 100%;
-}
-.s006 {
-  margin-left: 30%;
-  z-index: 1;
-  margin-top: 5%;
-}
-.optionButtons {
-  margin: 0 auto;
-  top: 375px;
-  margin-top: -25px;
-}
-.bgHeader {
-  /* The image used */
-  background-image: url("../images/tour.png");
 
-  height: 550px;
-  margin: 0;
-  z-index: -1;
-  /* Center and scale the image nicely */
-
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: black;
-}
-
-.bar {
-  z-index: 9999;
-}
-
-.container {
-  padding: 0;
-}
-.btn-circle {
-  width: 60px;
-  height: 60px;
-  text-align: center;
-  padding: 6px 0;
-  font-size: 12px;
-  line-height: 1.42;
-  border-radius: 15px;
-}
-.optionButtons {
-  margin-top: 20px;
-}
 /* ----------- IDS -----------*/
-#search{
-    width: 450px;
-    height: 50px;
-    border-radius: 50px;
+#search {
+  width: 450px;
+  height: 50px;
+  border-radius: 50px;
 }
-#form{
-    padding: 10px;
+#form {
+  padding: 10px;
 }
-#pop{
-    z-index: 999;
-    margin-top: -125px;
+#pop {
+  z-index: 999;
+  margin-top: -125px;
 }
-#update-img{
-    width: 350px;
-    height: 200px;
+#update-img {
+  width: 350px;
+  height: 200px;
 }
-#update-desc{
-    text-align: left;
-    font-size: 14px;
-    width: 280px;
-    margin-left: 80px;
-    margin-top: -30px;
+#update-desc {
+  text-align: left;
+  font-size: 14px;
+  width: 280px;
+  margin-left: 80px;
+  margin-top: -30px;
 }
-#update-date{
-    color: #E8ADAD;
-    font-weight: bold;
-    font-size: 20px;
+#update-date {
+  color: #e8adad;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: -35px;
+  width: 60px;
+  line-height: 20px;
+}
+#update-title {
+  text-align: right;
+  font-size: 24px;
+  font-weight: bolder;
+  margin-top: 15px;
+}
+
+.optionButtons {
+  text-align: center;
+}
+
+.form1 {
+  text-align: center;
+  margin-top: 50%;
+}
+.span1 {
+  padding-right: 15px;
+  margin-left: 37px;
+}
+
+@media (min-width: 576px) {
+}
+
+@media only screen and (max-width: 576px) {
+  #threeB {
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+    margin-top: -50px;
+  }
+  .btn-circle {
+    width: 70px;
+    height: 70px;
+    /* text-align: center; */
+    /* padding: 6px 0; */
+    /* font-size: 12px; */
+    /* line-height: 1.42; */
+    border-radius: 40px;
     margin-top: -35px;
-    width: 60px;
-    line-height: 20px;
-}
-#update-title{
-    text-align: right;
-    font-size: 24px;
-    font-weight: bolder;
-    margin-top: 15px;
+  }
 }
